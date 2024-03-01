@@ -8,7 +8,7 @@ const Employees = ({ employees, selectedTeam, handleEmployeeCardClick, handleTea
         <main className='container'>
             {/* Team DropDown */}
 
-            <div className="row justify-content-ceter mt-3 mb-4">
+            <div className="row justify-content-ceter mt-4 mb-3">
                 <div className="col-6" value="TeamB">
                     <select className='form-select form-select-lg' value={selectedTeam} onChange={handleTeamSelectionChange}>
                         <option value="TeamA">TeamA</option>
@@ -21,7 +21,7 @@ const Employees = ({ employees, selectedTeam, handleEmployeeCardClick, handleTea
 
             {/* Emplyee Cards */}
 
-            <div className="row justify-content-ceter mt-3 mb-4">
+            <div className="row justify-content-ceter mt-4 mb-3">
                 <div className="col-8">
                     <div className='card-collection'>
                         {
