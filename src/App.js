@@ -134,7 +134,7 @@ function App() {
       />
 
       <Routes>
-        <Route path='/' element={
+        <Route path={'/employeeapp'} element={
           < Employees employees={employees}
             selectedTeam={selectedTeam}
             handleEmployeeCardClick={handleEmployeeCardClick}
